@@ -1,0 +1,25 @@
+{
+    "id": "com.mattermost.apps",
+    "name": "Apps",
+    "description": "This plugin powers the Mattermost Apps Framework and is required for any Apps to run",
+    "homepage_url": "https://developers.mattermost.com/integrate/apps",
+    "support_url": "https://github.com/mattermost/mattermost-plugin-apps/issues",
+    "release_notes_url": "https://github.com/mattermost/mattermost-plugin-apps/releases/tag/v1.2.2",
+    "version": "1.2.2",
+    "min_server_version": "7.7.0",
+    "server": {
+        "executables": {
+            "darwin-amd64": "server/dist/plugin-darwin-amd64",
+            "darwin-arm64": "server/dist/plugin-darwin-arm64",
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        },
+        "executable": ""
+    },
+    "settings_schema": {
+        "header": "To create your own Mattermost App, check out [the documentation](https://developers.mattermost.com/integrate/apps/)",
+        "footer": "To report an issue, make a suggestion or a contribution, [check the repository](https://github.com/mattermost/mattermost-plugin-apps).",
+        "settings": []
+    }
+}
